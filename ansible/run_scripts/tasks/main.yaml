@@ -1,0 +1,13 @@
+- name: Copy shell script to remote server
+  copy:
+    src: /mnt/linux/data/project/final-project/bash_script/web_app.sh
+    dest: /tmp/myscript.sh
+    mode: 0755
+
+- name: Run shell script on remote server
+  shell: sh /tmp/myscript.sh
+
+- name: Remove shell script from remote server
+  file:
+    path: /tmp/myscript.sh
+    state: absent

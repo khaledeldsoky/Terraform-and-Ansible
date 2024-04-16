@@ -1,0 +1,6 @@
+[bastion]
+3.219.233.141
+3.87.225.170
+[private]
+privateinstance1 ansible_host=10.0.2.160 ansible_user=ubuntu ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p bastion"'
+privateinstance2 ansible_host=10.0.1.91 ansible_user=ubuntu ansible_ssh_common_args='-o ProxyCommand="ssh -W %h:%p bastion"'

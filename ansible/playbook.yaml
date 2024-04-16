@@ -1,0 +1,14 @@
+- hosts: bastion
+  roles:
+    # - jenkins
+    # - docker
+    - nginx_proxy
+
+
+- hosts: private
+  roles:
+    # - jenkins
+    # - docker
+    # - nginx_proxy
+    # - http
+    - run_scripts

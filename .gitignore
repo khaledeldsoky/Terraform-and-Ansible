@@ -1,0 +1,6 @@
+*.pem
+*.png
+notes*
+jenkins
+node*
+Docker*
