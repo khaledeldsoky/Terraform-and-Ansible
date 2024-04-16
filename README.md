@@ -1,6 +1,6 @@
 # Terraform and Ansible Project
 
-![ Project Diagram ](/mnt/linux/data/project/final-project/screen/screen..png)
+![ Project Diagram ](https://github.com/khaledeldsoky/Terraform-and-Ansible/blob/main/screen/screen..png?raw=true)
 
 ## Overview
 
