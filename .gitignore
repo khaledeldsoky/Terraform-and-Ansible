@@ -1,6 +1,5 @@
 *.pem
-*.png
 notes*
-jenkins
+jenkins1
 node*
-Docker*
+Dockerf*
